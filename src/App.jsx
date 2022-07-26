@@ -14,7 +14,7 @@ export function App() {
 
     <>
       <Routes>
-        <Route path="/" element={<Index />}/>
+        <Route path="/aficiones-react" element={<Index />}/>
         <Route path="movies" element={<MovieList />}/>
         <Route path="series" element={<SerieList />}/>
         <Route path="animes" element={<AnimeList />}/>
