@@ -1,0 +1,29 @@
+.principal-container{
+    background: var(--background-color);
+    display: grid;
+    /*grid-template-rows: 4rem 2fr 10rem; */
+    min-height: 100vh;
+
+    /* Text Styles */
+    color: var(--text-color);
+    font-family: 'Poppins';
+
+    
+}
+
+.extra-margin{
+    margin: 0 2rem 0 2rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header{
+  height: 4rem;
+}
+footer{
+  height: 8rem;
+}

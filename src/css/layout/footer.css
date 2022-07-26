@@ -1,0 +1,37 @@
+footer{
+    border-top: 1px solid black;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.secondary-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1rem;
+}
+
+.secondary-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.secondary-nav ul > li{
+    margin: 0 1rem;
+    overflow: hidden;
+}
