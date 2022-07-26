@@ -15,9 +15,9 @@ export function App() {
     <>
       <Routes>
         <Route path="/aficiones-react" element={<Index />}/>
-        <Route path="movies" element={<MovieList />}/>
-        <Route path="series" element={<SerieList />}/>
-        <Route path="animes" element={<AnimeList />}/>
+        <Route path="aficiones-react/movies" element={<MovieList />}/>
+        <Route path="aficiones-react/series" element={<SerieList />}/>
+        <Route path="aficiones-react/animes" element={<AnimeList />}/>
       </Routes>
      
     </>
