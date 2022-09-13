@@ -1,5 +1,5 @@
 import { Main } from "./Main";
-import { Header } from "./headerComp/header";
+import { Header } from "./Header";
 import { Footer } from "./Footer";
 
 export function Index() {

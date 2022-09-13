@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import * as API from '../services/movieDB'
 import '../css/main.css'
-import { Header } from './headerComp/header'
+import { Header } from './Header'
 import { Footer } from './Footer'
 
 export function MovieList(props) {
