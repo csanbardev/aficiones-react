@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import * as API from '../services/movieDB'
 import '../css/main.css'
-import { Header } from './header/header'
-import {Footer} from './Footer'
+import { Header } from './headerComp/header'
+import { Footer } from './Footer'
 
 export function MovieList(props) {
   const [movies, setMovies] = useState([])
